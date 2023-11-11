@@ -27,7 +27,7 @@ def demande_case_joueur(grille, symbole: str) -> int:
                 continue
             if grille[choix] == "X" or grille[choix] == "O":
                 print(grille)
-                print("t'es fou ou quoi la case est déja prise")
+                print("choix invalid, cette case est deja prise")
                 continue
             break
         except ValueError:
